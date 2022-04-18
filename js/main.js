@@ -24,7 +24,7 @@ arr.forEach((item, index )=> {
         let li = document.createElement('li')
   
         li.classList.add('a' + item.x, 'b' + item.y, 'ches__item');
-        li.textContent = item.x + "." +item.y;
+        // li.textContent = item.x + "." +item.y;
     
         if( (item.x+item.y) %2==0) {
 
